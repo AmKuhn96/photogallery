@@ -70,9 +70,6 @@ img {
     
 }
 
-.gallery-img {
-    
-}
 
 .contact {
     background-color: black;
@@ -207,4 +204,54 @@ input[type=submit] {
     top: -225px;
     font-weight: bold;
     text-align: center;
+}
+
+@media screen and (max-width: 880px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        justify-content: space-evenly;
+        margin: 5px;
+        
+    }  
+    
+    ul {
+        display: flex;
+        justify-content: center;
+        padding-right: 15px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+
+}
+
+@media screen and (max-width: 485px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        justify-content: space-evenly;
+        margin: 5px;
+    }   
+
+    ul {
+        display: flex;
+        justify-content: center;
+        padding-right: 15px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
 }

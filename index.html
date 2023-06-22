@@ -1,84 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-<header>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
     <h1>TK Photography</h1>
-</header>
 </head>
 
 <body>
-    <nav>
     <ul>
-        <li>About</li>
-        <li>Gallery</li>
-        <li>Contact</li>
+        <li>CONTACT</li>
+        <li>GALLERY</li>
+        <li>ABOUT</li>
     </ul>
-    </nav>
 
 
 <!-- top -->
-<h2>About</h2>
-<p>
-Hello! 
-I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-</p>
+<section id="about">
+    <h2>ABOUT</h2><br>
+    <p>Hello!</p>
+    <p>I'm TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+</section>
 
-<h2>Gallery</h2>
-<p>Here are some highlights of my work. The locations and year are in the caption.</p>
-
-<img src="images/Chile.png">
-Chile, 2001
-
-<img src="images/Guatemala.png">
-Guatemala, 1997
-
-<img src="images/Hawaii.png">
-Hawaii, 2010
-
-<img src="images/Iran.png">
-Iran, 1999
-
-<img src="images/Ireland.png">
-Ireland, 2012
-
-<img src="images/Italy.png">
-Italy, 2015
-
-<img src="images/Moab-Desert.png">
-Moab Desert, 2020
-
-<img src="images/Rocky-Mountains.png">
-Rocky Mountains, 2009
-
-<img src="images/Switzerland.png">
-Switzerland, 2014
-
-<img src="images/UK.png">
-UK, 2005
-
-<img src="images/USA.png">
-USA, 2021
-
-<img src="images/Wyoming.png">
-Wyoming, 2021
-
-<h2>Contact</h2>
-<p>Please fill out this form and I’ll connect with you soon.</p>
-
-Your contact information
-<form>
-    <label for="fullname">Name:</label><br>
-    <input type="text" id="name" value="Your full name"><br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" value="Enter your email address"><br>
-    <label for="message">Message:</label><br>
-    <input type="text" id="message" value="What can I help you with?"><br>
-    <input type="submit" value="Submit">
-
-  </form>
+<section>
+    <h2>GALLERY</h2><br>
+    <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+</section>    
 
 
+<div class="gallery">
 
+   <div class="gallery-img">
+        <img src="images/Chile.png"/>
+        <div class="chile">Chile, 2001</div>
+   </div>
+        
+    <div class="gallery-img"><img src="images/Guatemala.png">
+        <div class="guatemala">Guatemala, 1997</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/Hawaii.png">
+        <div class="hawaii">Hawaii, 2010</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/Iran.png">
+        <div class="iran">Iran, 1999</div>
+    </div>
+   
+    <div class="gallery-img"><img src="images/Ireland.png">
+        <div class="ireland">Ireland, 2012</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/Italy.png">
+        <div class="italy">Italy, 2015</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/Moab-Desert.png">
+        <div class="moab">Moab Desert, 2020</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/Rocky-Mountains.png">
+        <div class="mountains">Rocky Mountains, 2009</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/Switzerland.png">
+        <div class="switzerland">Switzerland, 2014</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/UK.png">
+        <div class="uk">UK, 2005</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/USA.png">
+        <div class="usa">USA, 2021.</div>
+    </div>
+    
+    <div class="gallery-img"><img src="images/Wyoming.png">
+        <div class="wyoming">Wyoming, 2021</div>
+    </div>
+
+</div>
+
+
+<div class="contact">
+   <br><h2>CONTACT</h2><br>
+    <p>Please fill out this form and I’ll connect with you soon.</p>
+</div>
+
+<div class="contact-form">
+    <form>
+        <label for="fullname">Name:</label><br>
+        <input type="text" id="name" placeholder="YOUR FULL NAME"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" placeholder="ENTER YOUR EMAIL ADDRESS"><br><br>
+        <label for="message">Message:</label><br>
+        <input type="text" id="message" placeholder="WHAT CAN I HELP YOU WITH?"><br><br>
+        <input type="submit" value="SUBMIT"><br><br>
+    </form>
+</div>
 
 <footer>Copyright 2021 TK Photography</footer>
 
